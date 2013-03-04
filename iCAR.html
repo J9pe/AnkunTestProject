@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "Grade4Project_test1_dictionaries">
+
+<head>
+    <h1> WELCOME TO iCAR
+    <h6> by CMAF
+    <title>iCAR</title>
+    <link rel="stylesheet" href="standardIssue.css">
+
+    <script src="tableSearch.js"> 
+ 	 </script> 
+    <script src="launch.js"> 
+ 	 </script> 
+
+<br>
+<FONT SIZE=2 FACE="Arial">
+http://upload.wikimedia.org/wikipedia/commons/2/24/CONCEPTUAL_CAR_DESIGN.jpg
+</FONT>
+<br>
+<img src="http://upload.wikimedia.org/wikipedia/commons/2/24/CONCEPTUAL_CAR_DESIGN.jpg" 
+alt="http://upload.wikimedia.org/wikipedia/commons/2/24/CONCEPTUAL_CAR_DESIGN.jpg"
+width="504" height="328"> 
+<br>
+<img src="http://getsimplifized.com/wp-content/uploads/2010/06/garage-organized-pic.jpg" 
+alt="http://getsimplifized.com/wp-content/uploads/2010/06/garage-organized-pic.jpg"
+width="504" height="328"> 
+<br>
+
+<FONT SIZE=2 FACE="Arial">
+http://getsimplifized.com/wp-content/uploads/2010/06/garage-organized-pic.jpg
+</FONT>
+</head>
+ 
+<body onload="tableSearch.init();">
+
+
+ <!--   BUY YOUR STUFF-->
+<br>
+BUY YOUR STUFF <br><br>
+       <tbody>
+
+            <tr>
+                <td>
+			<br>CAR CHOICE INPUT
+                    <input type="text" size="90" maxlength="500" value="" id="carChoice" 
+			onkeyup="launch.enterActivate(event);" />
+		        <br>CAR PART CHOICE INPUT
+                    <input type="text" size="90" maxlength="500" value="" id="carParts" 
+			onkeyup="launch.enterActivate(event);" />
+                    <input type="button" value="Launch" onclick="launch.activate();" />
+                </td>
+            </tr>
+ 	
+        </tbody>
+
+    </table>
+    <br />
+
+
+
+ <!--   menu-->
+MENU
+The following allows you to search for a car or part
+    </table>
+ 
+
+
+       <tbody>
+
+            <tr>
+                <td>
+                    <input type="text" size="90" maxlength="3000" value="" id="textBoxSearch" 
+			onkeyup="tableSearch.search(event);" />
+                    <input type="button" value="Search" onclick="tableSearch.runSearch();" />
+                </td>
+            </tr>
+ 	
+        </tbody>
+
+    </table>
+    <br />
+
+<br>
+    <table border="1" cellpadding="2" cellspacing="0" >
+
+        <tr>
+      	    <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Performance</th>
+       
+        </tr>
+      <tbody id="data">
+            <tr>
+                <td>001</td>
+                <td>Car-HONDA</td>
+                <td>15$</td>
+                <td>7/10</td>
+               
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Car-KIA</td>
+                <td>17$</td>
+                <td>7/10</td>
+               
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>Car-FORD</td>
+                <td>17$</td>
+                <td>7/10</td>
+                
+            </tr>
+            <tr>
+                <td>004</td>
+                <td>Car-BMW</td>
+                <td>100$</td>
+                <td>8/10</td>
+                
+            </tr>
+            <tr>
+                <td>005</td>
+                <td>Car-Toyota</td>
+                <td>100$</td>
+                <td>8/10</td>
+             
+            </tr>
+            <tr>
+                <td>006</td>
+                <td>Car-Porche</td>
+                <td>100$</td>
+                <td>8/10</td>
+               
+            </tr>
+            <tr>
+                <td>007</td>
+                <td>part-Engine 1</td>
+                <td>6$</td>
+                <td>2/5</td>
+               
+            </tr>
+			<tr>
+                <td>007</td>
+                <td>part-Engine 2</td>
+                <td>6$</td>
+                <td>2/5</td>
+               
+            </tr>
+			<tr>
+                <td>007</td>
+                <td>part-Engine 3</td>
+                <td>6$</td>
+                <td>2/5</td>
+               
+            </tr>
+			<tr>
+                <td>007</td>
+                <td>part-Engine 4</td>
+                <td>6$</td>
+                <td>2/5</td>
+               
+            </tr>
+			<tr>
+                <td>007</td>
+                <td>part-Engine 4</td>
+                <td>6$</td>
+                <td>2/5</td>
+               
+            </tr>
+			
+            <tr>
+                <td>008</td>
+                <td>part-Tire1</td>
+                <td>6$</td>
+                <td>2/5</td>
+
+            </tr>
+            <tr>
+                <td>009</td>
+                <td>part-Body1</td>
+                <td>6$</td>
+                <td>2/5</td>
+
+            </tr>
+
+          </tbody>
+
+       
+
+
+
+
+</body>
+
+
+</html>
+
